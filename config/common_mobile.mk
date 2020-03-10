@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     Etar \
     Jelly \
     Profiles \
+    Seedvault \
     TrebuchetQuickStep
 
 # Accents
