@@ -29,8 +29,7 @@ PRODUCT_PACKAGES += \
     Jelly \
     LockClock \
     Profiles \
-    TrebuchetQuickStep \
-    WeatherProvider
+    TrebuchetQuickStep
 
 # Accents
 PRODUCT_PACKAGES += \
