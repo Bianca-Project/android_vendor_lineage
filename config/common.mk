@@ -134,6 +134,7 @@ PRODUCT_PACKAGES += \
     bash \
     bzip2 \
     curl \
+    fuser \
     getcap \
     htop \
     lib7z \
