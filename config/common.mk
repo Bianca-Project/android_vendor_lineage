@@ -121,7 +121,9 @@ PRODUCT_PACKAGES += \
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
-    LineageSettingsProvider
+    LineageSettingsProvider \
+    LineageSetupWizard \
+    Updater
 
 # Themes
 PRODUCT_PACKAGES += \
@@ -130,6 +132,7 @@ PRODUCT_PACKAGES += \
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
+    7z \
     awk \
     bash \
     bzip2 \
@@ -145,6 +148,8 @@ PRODUCT_PACKAGES += \
     setcap \
     unrar \
     unzip \
+    vim \
+    wget \
     zip
 
 # Filesystems tools
