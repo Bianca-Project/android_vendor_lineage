@@ -4,11 +4,11 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 endif
 
-# DurandalProject System Version
+# BiancaProject System Version
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.durandal.version=$(LINEAGE_VERSION) \
-    ro.durandal.releasetype=$(DURANDAL_BUILDTYPE) \
-    ro.durandal.build.version=v$(VERSION) \
+    ro.bianca.version=$(LINEAGE_VERSION) \
+    ro.bianca.releasetype=$(BIANCA_BUILDTYPE) \
+    ro.bianca.build.version=v$(VERSION) \
     ro.modversion=$(LINEAGE_VERSION)
 
 # LineageOS Platform Display Version

@@ -2,16 +2,16 @@
 # Allow vendor/extra to override any property by setting it first
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 
-PRODUCT_BRAND := DurandalProject
+PRODUCT_BRAND := BiancaProject
 VERSION := 1.0
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # official tag
-ifeq ($(DURANDAL_OFFICIAL), true)
-    DURANDAL_BUILDTYPE := OFFICIAL
+ifeq ($(BIANCA_OFFICIAL), true)
+    BIANCA_BUILDTYPE := OFFICIAL
 else
-    DURANDAL_BUILDTYPE := UNOFFICIAL
+    BIANCA_BUILDTYPE := UNOFFICIAL
 endif
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
@@ -197,8 +197,8 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 -include vendor/lineage-priv/keys/keys.mk
 
-LINEAGE_VERSION := $(PRODUCT_BRAND)-v$(VERSION)-$(DURANDAL_BUILDTYPE)-$(LINEAGE_BUILD)-$(shell date +%d%m%Y-%H%M)
-LINEAGE_DISPLAY_VERSION := $(PRODUCT_BRAND)-v$(VERSION)-$(DURANDAL_BUILDTYPE)-$(LINEAGE_BUILD)
+LINEAGE_VERSION := $(PRODUCT_BRAND)-v$(VERSION)-$(BIANCA_BUILDTYPE)-$(LINEAGE_BUILD)-$(shell date +%d%m%Y-%H%M)
+LINEAGE_DISPLAY_VERSION := $(PRODUCT_BRAND)-v$(VERSION)-$(BIANCA_BUILDTYPE)-$(LINEAGE_BUILD)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
