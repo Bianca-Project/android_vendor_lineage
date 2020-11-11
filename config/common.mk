@@ -138,9 +138,9 @@ PRODUCT_PACKAGES += \
     htop \
     libsepol \
     nano \
-    pigz \
     unzip \
     wget \
+    xz \
     zip
 
 # Filesystems tools
