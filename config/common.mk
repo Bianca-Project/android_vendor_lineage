@@ -138,7 +138,6 @@ PRODUCT_PACKAGES += \
     htop \
     libsepol \
     nano \
-    unzip \
     wget \
     xz \
     zip
